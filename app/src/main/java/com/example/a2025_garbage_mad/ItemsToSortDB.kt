@@ -14,6 +14,8 @@ class ItemsToSortDB {
     fun addItem (what: String, where: String) {
         ItemsToSortDB.add(ItemToSort(what, where))
     }
+    //can I push it now?
+
 
     fun fillItemsDB() {
         addItem("plastic bottle", "plastic")
