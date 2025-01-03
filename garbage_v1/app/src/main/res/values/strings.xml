@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">garbage_v1</string>
+    <string name="app_name">ShoppingV1</string>
+    <string name="list">List all items</string>
 </resources>
