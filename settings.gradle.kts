@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "2025_Garbage_MAD"
+rootProject.name = "Garbage_V1"
 include(":app")
  
