@@ -15,6 +15,10 @@ class ItemsToSortDB {
         ItemsToSortDB.add(ItemToSort(what, where))
     }
 
+    fun whereToSortSearch(what: String): String {
+        return ItemsToSortDB.find { it.what == what }?.where ?: "not found"
+    }
+
     fun fillItemsDB() {
         addItem("plastic bottle", "plastic")
         addItem("plastic bag", "plastic")
@@ -40,6 +44,10 @@ class ItemsToSortDB {
         addItem("plastic bottle trigger", "plastic")
         addItem("plastic bottle valve", "plastic")
         addItem("plastic bottle wrap", "plastic")
+        addItem("can", "metal")
+        addItem("aluminum can", "metal")
+        addItem("milk carton", "plastic")
+
     }
 
 }
