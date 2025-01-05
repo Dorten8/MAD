@@ -37,7 +37,8 @@
     <TextView
         android:id="@+id/where_to_sort_result"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
 
     <!--    &lt;!&ndash; TextView to show all items &ndash;&gt;-->
 <!--    <TextView-->

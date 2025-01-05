@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         listItemsButton.setOnClickListener {
             val userInput = findViewById<EditText>(R.id.where_to_sort_input).text.toString()
-            itemsText.setBackgroundColor(Color.WHITE)
+//            itemsText.setBackgroundColor(Color.WHITE)
             itemsText.text = getString(R.string.sort_to, itemsToSortDB.whereToSortSearch(userInput)) // String template, updated text
         }
 
