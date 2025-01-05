@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">garbage_v2</string>
+    <string name="list">List all items</string>
+    <string name="heading_where_to_sort_it">Where to sort it?</string>
+    <string name="hint_where_to_sort_it">Enter item to sort</string>
+    <string name="where_to_sort_button">Where to sort?</string>
+    <string name="sort_to">Sort to: %s</string>
+</resources>
