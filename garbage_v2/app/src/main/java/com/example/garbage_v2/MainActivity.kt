@@ -1,6 +1,5 @@
 package com.example.a2025_garbage_mad
 
-import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
@@ -21,7 +20,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.garbage_sorting) // Only set the layout once
 
-        itemsToSortDB = ItemsToSortDB() // Initialize after setting layout
+//        itemsToSortDB = ItemsToSortDB() // Initialize after setting layout garbageV1
+        itemsToSortDB = ItemsToSortDB.getInstance() // Initialize after setting layout garbageV2
         itemsToSortDB.fillItemsDB()
 
         val listItemsButton = findViewById<Button>(R.id.where_to_sort_button) // Get the Button reference
@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         listItemsButton.setOnClickListener {
             val userInput = findViewById<EditText>(R.id.where_to_sort_input).text.toString()
 //            itemsText.setBackgroundColor(Color.WHITE)
-            itemsText.text = getString(R.string.sort_to, itemsToSortDB.whereToSortSearch(userInput)) // String template, updated text
+            itemsText.text = getString(R.string.sort_to, itemsToSortDB.getItem(userInput)) // String template, updated text
         }
 
         enableEdgeToEdge() // Keep this after setting the layout

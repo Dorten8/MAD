@@ -1,21 +1,30 @@
 package com.example.garbage_v2
 
-class ItemsToSortDB {
-    private var ItemsToSortDB = mutableListOf<ItemToSort>()
+class ItemsToSortDB private constructor(){ // Private constructor to prevent direct instantiation
+    companion object { // Singleton pattern implementation
+        @Volatile
+        private var instance: ItemsToSortDB? = null // Volatile to make sure the instance is always up-to-date
+        fun getInstance() = instance ?: synchronized(this) { //always gets the singleton instance of the class
+            instance ?: ItemsToSortDB().also { instance = it }
+        }
+    }
 
-    init {
+    private val ItemsToSortDB = mutableListOf<ItemToSort>()//changed from var to val, the list if self can changed but the reference to it should not
+
+    init { //special initializer block, makes sure the methods within the block are called when the class is instantiated
         fillItemsDB()
     }
 
-    fun listItems(): String {
-        return ItemsToSortDB.joinToString("\n") { "sort to ${it}" }
-    }
+    fun listItems(): String { //returns where do we sort based on item
+        return ItemsToSortDB.joinToString("\n") { "sort to ${it.what} -> ${it.where}" }
+    }//lambda -> an anonymous function that can be passed as an argument
 
     fun addItem (what: String, where: String) {
-        ItemsToSortDB.add(ItemToSort(what, where))
+        synchronized(this) { //synchronized block to prevent concurrent modification of the list
+            ItemsToSortDB.add(ItemToSort(what, where))
+        }
     }
-
-    fun whereToSortSearch(what: String): String {
+    fun getItem(what: String): String {
         return ItemsToSortDB.find { it.what == what }?.where ?: "not found"
     }
 
@@ -47,7 +56,5 @@ class ItemsToSortDB {
         addItem("can", "metal")
         addItem("aluminum can", "metal")
         addItem("milk carton", "plastic")
-
     }
-
 }
