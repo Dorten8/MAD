@@ -1,5 +1,6 @@
 package com.example.a2025_garbage_mad
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
@@ -10,11 +11,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.garbage_v2.ItemsToSortDB
+import com.example.garbage_v2.ListActivity
 import com.example.garbage_v2.R
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var itemsToSortDB: ItemsToSortDB // Respecting your naming
+    private lateinit var itemsToSortDB: ItemsToSortDB
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 //        itemsToSortDB = ItemsToSortDB() // Initialize after setting layout garbageV1
         itemsToSortDB = ItemsToSortDB.getInstance() // Initialize after setting layout garbageV2
         itemsToSortDB.fillItemsDB()
-
+//  <main activity logic>
         val listItemsButton = findViewById<Button>(R.id.where_to_sort_button) // Get the Button reference
         val itemsText = findViewById<TextView>(R.id.where_to_sort_result) // Get the TextView reference
 
@@ -31,6 +33,24 @@ class MainActivity : AppCompatActivity() {
             val userInput = findViewById<EditText>(R.id.where_to_sort_input).text.toString()
 //            itemsText.setBackgroundColor(Color.WHITE)
             itemsText.text = getString(R.string.sort_to, itemsToSortDB.getItem(userInput)) // String template, updated text
+        }
+//  <add new item to the  list of items logic>
+        val addNewItemButton = findViewById<Button>(R.id.add_new_item_button)
+
+        addNewItemButton.setOnClickListener {
+            val intent = Intent(this, ListActivity::class.java)
+            startActivity(intent)
+        }
+
+//  <get to list of all items logic>
+        val listAllItemsButton = findViewById<Button>(R.id.list_all_items_button)
+
+//        listAllItemsButton.setOnClickListener {
+//            itemsText.text = itemsToSortDB.listItems()
+//        }
+        listAllItemsButton.setOnClickListener {
+            val intent = Intent(this, ListActivity::class.java)
+            startActivity(intent)
         }
 
         enableEdgeToEdge() // Keep this after setting the layout
