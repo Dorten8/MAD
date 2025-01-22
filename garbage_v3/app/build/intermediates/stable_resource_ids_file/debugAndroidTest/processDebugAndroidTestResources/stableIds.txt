@@ -1,2 +1,2 @@
-com.example.garbage_v3.test:style/WhiteBackgroundTheme = 0x7f010001
-com.example.garbage_v3.test:style/WhiteBackgroundDialogTheme = 0x7f010000
+com.example.garbage_v2.test:style/WhiteBackgroundTheme = 0x7f010001
+com.example.garbage_v2.test:style/WhiteBackgroundDialogTheme = 0x7f010000

@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.garbage_v3",
+  "applicationId": "com.example.garbage_v2",
   "variantName": "debug",
   "elements": [
     {

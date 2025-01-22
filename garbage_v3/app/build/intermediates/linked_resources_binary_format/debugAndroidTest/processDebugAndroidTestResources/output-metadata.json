@@ -4,7 +4,7 @@
     "type": "LINKED_RESOURCES_BINARY_FORMAT",
     "kind": "Directory"
   },
-  "applicationId": "com.example.garbage_v3.test",
+  "applicationId": "com.example.garbage_v2.test",
   "variantName": "debugAndroidTest",
   "elements": [
     {

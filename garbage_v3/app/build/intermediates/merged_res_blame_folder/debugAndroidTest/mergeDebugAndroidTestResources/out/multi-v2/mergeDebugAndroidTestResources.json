@@ -1,7 +1,31 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.garbage_v3.test.app-debugAndroidTest-5:/values-v28_values-v28.arsc.flat",
+            "outputFile": "com.example.garbage_v2.test.app-debugAndroidTest-5:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\dorte\\.gradle\\caches\\8.9\\transforms\\0d638aa404f313ba46adbe9d2157e914\\transformed\\core-1.6.1\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,11",
+                        "startColumns": "0,0",
+                        "startOffsets": "142,510",
+                        "endLines": "10,17",
+                        "endColumns": "8,8",
+                        "endOffsets": "509,875"
+                    },
+                    "to": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,427",
+                        "endLines": "8,15",
+                        "endColumns": "8,8",
+                        "endOffsets": "422,792"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.example.garbage_v2.test.app-debugAndroidTest-5:/values-v28_values-v28.arsc.flat",
             "map": [
                 {
                     "source": "C:\\Users\\dorte\\.gradle\\caches\\8.9\\transforms\\0d638aa404f313ba46adbe9d2157e914\\transformed\\core-1.6.1\\res\\values-v28\\values.xml",
@@ -25,7 +49,7 @@
             ]
         },
         {
-            "outputFile": "com.example.garbage_v3.test.app-debugAndroidTest-5:/values-v18_values-v18.arsc.flat",
+            "outputFile": "com.example.garbage_v2.test.app-debugAndroidTest-5:/values-v18_values-v18.arsc.flat",
             "map": [
                 {
                     "source": "C:\\Users\\dorte\\.gradle\\caches\\8.9\\transforms\\0d638aa404f313ba46adbe9d2157e914\\transformed\\core-1.6.1\\res\\values-v18\\values.xml",
@@ -49,7 +73,7 @@
             ]
         },
         {
-            "outputFile": "com.example.garbage_v3.test.app-debugAndroidTest-5:/values-v21_values-v21.arsc.flat",
+            "outputFile": "com.example.garbage_v2.test.app-debugAndroidTest-5:/values-v21_values-v21.arsc.flat",
             "map": [
                 {
                     "source": "C:\\Users\\dorte\\.gradle\\caches\\8.9\\transforms\\0d638aa404f313ba46adbe9d2157e914\\transformed\\core-1.6.1\\res\\values-v21\\values.xml",
@@ -68,30 +92,6 @@
                         "endLines": "10,19",
                         "endColumns": "8,8",
                         "endOffsets": "529,1006"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "com.example.garbage_v3.test.app-debugAndroidTest-5:/values_values.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\dorte\\.gradle\\caches\\8.9\\transforms\\0d638aa404f313ba46adbe9d2157e914\\transformed\\core-1.6.1\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "4,11",
-                        "startColumns": "0,0",
-                        "startOffsets": "142,510",
-                        "endLines": "10,17",
-                        "endColumns": "8,8",
-                        "endOffsets": "509,875"
-                    },
-                    "to": {
-                        "startLines": "2,9",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,427",
-                        "endLines": "8,15",
-                        "endColumns": "8,8",
-                        "endOffsets": "422,792"
                     }
                 }
             ]
