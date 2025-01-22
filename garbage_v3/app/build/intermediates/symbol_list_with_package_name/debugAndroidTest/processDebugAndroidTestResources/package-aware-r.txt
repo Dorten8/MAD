@@ -1,3 +1,0 @@
-com.example.garbage_v3.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
