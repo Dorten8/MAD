@@ -4,10 +4,10 @@ plugins {
 }
 
 android {
-    namespace = "com.example.garbage_v2"
+    namespace = "com.example.garbage_v3"
     compileSdk = 35
     defaultConfig {
-        applicationId = "com.example.garbage_v2"
+        applicationId = "com.example.garbage_v3"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
