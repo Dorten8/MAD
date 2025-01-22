@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.garbage_v3.app-mergeDebugResources-31:/layout/content_scrolling.xml",
+        "source": "com.example.garbage_v3.app-main-34:/layout/content_scrolling.xml"
+    },
+    {
+        "merged": "com.example.garbage_v3.app-mergeDebugResources-31:/layout/garbage_sorting.xml",
+        "source": "com.example.garbage_v3.app-main-34:/layout/garbage_sorting.xml"
+    },
+    {
+        "merged": "com.example.garbage_v3.app-mergeDebugResources-31:/layout/activity_add_new_item.xml",
+        "source": "com.example.garbage_v3.app-main-34:/layout/activity_add_new_item.xml"
+    },
+    {
+        "merged": "com.example.garbage_v3.app-mergeDebugResources-31:/layout/activity_list.xml",
+        "source": "com.example.garbage_v3.app-main-34:/layout/activity_list.xml"
+    }
+]
