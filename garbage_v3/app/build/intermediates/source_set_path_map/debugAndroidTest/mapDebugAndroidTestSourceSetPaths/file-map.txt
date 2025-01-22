@@ -1,6 +1,0 @@
-com.example.garbage_v2.test.app-core-1.6.1-0 C:\Users\dorte\.gradle\caches\8.9\transforms\0d638aa404f313ba46adbe9d2157e914\transformed\core-1.6.1\res
-com.example.garbage_v2.test.app-tracing-1.2.0-1 C:\Users\dorte\.gradle\caches\8.9\transforms\6f1d62bc16fe17371a7e9c41a1d5e184\transformed\tracing-1.2.0\res
-com.example.garbage_v2.test.app-androidTest-2 C:\Users\dorte\AndroidStudioProjects\MAD\garbage_v2\app\build\generated\res\resValues\androidTest\debug
-com.example.garbage_v2.test.app-mergeDebugAndroidTestResources-3 C:\Users\dorte\AndroidStudioProjects\MAD\garbage_v2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.garbage_v2.test.app-mergeDebugAndroidTestResources-4 C:\Users\dorte\AndroidStudioProjects\MAD\garbage_v2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.garbage_v2.test.app-debugAndroidTest-5 C:\Users\dorte\AndroidStudioProjects\MAD\garbage_v2\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
