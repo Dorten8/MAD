@@ -21,7 +21,7 @@
             android:label="@string/title_activity_list"
             android:theme="@style/Theme.Garbage_v1.NoActionBar" />
         <activity
-            android:name="com.example.a2025_garbage_mad.MainActivity"
+            android:name="com.example.garbage_v2.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
