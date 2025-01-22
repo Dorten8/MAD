@@ -10,6 +10,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.garbage_v2.AddNewItemActivity
 import com.example.garbage_v2.ItemsToSortDB
 import com.example.garbage_v2.ListActivity
 import com.example.garbage_v2.R
@@ -38,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         val addNewItemButton = findViewById<Button>(R.id.add_new_item_button)
 
         addNewItemButton.setOnClickListener {
-            val intent = Intent(this, ListActivity::class.java)
+            val intent = Intent(this, AddNewItemActivity::class.java)
             startActivity(intent)
         }
 

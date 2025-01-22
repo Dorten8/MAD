@@ -22,7 +22,7 @@
         android:id="@+id/where_to_sort_input"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="@string/hint_where_to_sort_it"
+        android:hint="@string/Enter_new_item"
         android:inputType="text"
         android:layout_marginBottom="5dp"/>
 

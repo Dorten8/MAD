@@ -2,13 +2,16 @@
     <string name="app_name">garbage_v2</string>
     <string name="list">List all items</string>
     <string name="heading_where_to_sort_it">Where to sort it?</string>
-    <string name="hint_where_to_sort_it">Enter item to sort</string>
+    <string name="Enter_new_item">Enter item to sort</string>
+    <string name="Enter_where_to_sort_new_item">Enter where to sort new item</string>
     <string name="where_to_sort_button">Where to sort?</string>
     <string name="sort_to">Sort to: %s</string>
     <string name="title_activity_list">ListActivity</string>
     <string name="list_all_items_button">List all items</string>
     <string name="add_new_item_button">Add new item</string>
     <string name="All_items">All items</string>
+    <string name="new_item_to_sort">New item to sort</string>
+    <string name="item_added">Item Added!</string>
 
     <string name="large_text">
         "Material is the metaphor.\n\n"
