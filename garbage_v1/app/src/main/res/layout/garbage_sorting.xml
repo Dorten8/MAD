@@ -24,7 +24,8 @@
         android:layout_height="50dp"
         android:hint="@string/hint_where_to_sort_it"
         android:inputType="text"
-        android:layout_marginBottom="5dp"/>
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"/>
 
     <!--Button Where-->
     <Button
@@ -38,7 +39,8 @@
         android:id="@+id/where_to_sort_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:textSize="50sp"/>
 
     <!--    &lt;!&ndash; TextView to show all items &ndash;&gt;-->
 <!--    <TextView-->
